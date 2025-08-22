@@ -1,4 +1,9 @@
-<<<<<<< HEAD
+/* Tailwind base */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
 .menu-section {
   margin-bottom: 40px;
 }
@@ -59,29 +64,29 @@
 
 .menu-buttons button {
   padding: 8px 15px;
-  border: 0.2;
-  background: white;          
+  border: none;
+  background: white;
   color: black;
-  border-radius: 10px;       /* rounded pill look */
+  border-radius: 10px;
   cursor: pointer;
   font-size: 13px;
   transition: all 0.3s ease;
 }
 
 .menu-buttons button:hover {
-  background: rgb(230, 228, 228);          /* lighter grey when hovered */
+  background: rgb(230, 228, 228);
 }
 
 .menu-buttons button.active {
-  background: rgb(202, 202, 202)
+  background: rgb(202, 202, 202);
 }
 
 .buttons {
   padding: 10px 25px;
-  border: 0.2;
-  background: white;          
+  border: none;
+  background: white;
   color: black;
-  border-radius: 10px;       /* rounded pill look */
+  border-radius: 10px;
   cursor: pointer;
   font-size: 13px;
   transition: all 0.3s ease;
@@ -92,13 +97,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh; /* full screen height */
-  background: #f4f4f4; /* light background */
+  height: 100vh;
+  background: #f4f4f4;
   text-align: center;
 }
 
 .home-logo {
-  width: 200px;      /* adjust as needed */
+  width: 200px;
   margin-bottom: 40px;
 }
 
@@ -110,10 +115,10 @@
 
 .home-btn {
   padding: 10px 25px;
-  border: 0.2;
-  background: white;          
+  border: none;
+  background: white;
   color: black;
-  border-radius: 10px;       /* rounded pill look */
+  border-radius: 10px;
   cursor: pointer;
   font-size: 13px;
   transition: all 0.3s ease;
@@ -123,10 +128,3 @@
   background: #c49b63; /* gold hotel theme */
   color: white;
 }
-
-
-=======
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
->>>>>>> 7ce907aeb896b5d893bb9a8346275a3cef63a38b
