@@ -1,0 +1,126 @@
+.menu-section {
+  margin-bottom: 40px;
+}
+
+.menu-section h2 {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 12px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.menu-item-name {
+  font-weight: bold;
+  font-size: 16px;
+  color: #222;
+}
+
+.menu-item-price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #444;
+}
+
+.menu-item-desc {
+  margin-top: 3px;
+  font-size: 14px;
+  font-style: italic;
+  color: #777;
+}
+
+.separator {
+  margin: 40px 0;
+  border-top: 3px solid #E8C55C; /* gold hotel style */
+}
+
+.menu-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: center;
+  color: #222;
+}
+
+.menu-buttons button {
+  padding: 8px 15px;
+  border: 0.2;
+  background: white;          
+  color: black;
+  border-radius: 10px;       /* rounded pill look */
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+.menu-buttons button:hover {
+  background: rgb(230, 228, 228);          /* lighter grey when hovered */
+}
+
+.menu-buttons button.active {
+  background: rgb(202, 202, 202)
+}
+
+.buttons {
+  padding: 10px 25px;
+  border: 0.2;
+  background: white;          
+  color: black;
+  border-radius: 10px;       /* rounded pill look */
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* full screen height */
+  background: #f4f4f4; /* light background */
+  text-align: center;
+}
+
+.home-logo {
+  width: 200px;      /* adjust as needed */
+  margin-bottom: 40px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-btn {
+  padding: 10px 25px;
+  border: 0.2;
+  background: white;          
+  color: black;
+  border-radius: 10px;       /* rounded pill look */
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+.home-btn:hover {
+  background: #c49b63; /* gold hotel theme */
+  color: white;
+}
+
+
