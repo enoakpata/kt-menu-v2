@@ -1,0 +1,30 @@
+nav {
+  background-color: #f9f9f9;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #cdc251; 
+}
+
+.bubble1 {
+  border-radius: 1000px;
+  padding: 0.5rem 1.2rem;
+  font-weight: 100;
+  font-size: 0.75rem;
+  border: 1px solid #ccc;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  transition: background-color 0.3s ease;
+}
+
+.bubble1:hover {
+  background-color: white;
+}
+
+
+
